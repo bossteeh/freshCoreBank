@@ -1,0 +1,148 @@
+@import "../modules/variable";
+@import "../modules/color";
+
+* {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Poppins;
+  font-size: 14px;
+}
+
+.firstHeader {
+  @media screen and (max-width: 768px) {
+    .mobiledisplay {
+      display: none;
+    }
+  }
+
+  background-color: $myGrey;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: $heightPadding;
+  color: $myWhite;
+
+  .firstHeaderDiv1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 48vw;
+    align-items: center;
+  }
+  .firstHeaderDiv2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 46vw;
+    align-items: center;
+    .flagngn {
+      align-items: center;
+      width: 15vw;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+.secondHeader {
+  @media screen and (min-width: 768px) {
+   
+    .show {
+      display: none;
+    
+      
+    }
+  }
+  @media screen and (max-width: 768px) {
+     .secondHeaderDiv1 img{
+        width: 150px;
+    }.mobile {
+      display: none;
+    }
+  }
+
+
+
+
+  @media screen and (max-width: 768px) {
+    .mobiledisplay {
+      display: none;
+      list-style: none;
+    }
+  }
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: $heightPadding;
+  align-items: center;
+
+  .secondHeaderDiv2{
+      display: flex;
+      @media screen and (max-width:768px) {
+          
+      }
+  }
+
+  .secondHeaderDiv2 ul {
+    list-style: none;
+    display: flex;
+    width: 40vw;
+    justify-content: space-evenly;
+    @media screen and (min-width: 768px) {
+      .mobiledisplay {
+        display: none;
+        @at-root {
+          &_t {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .secondHeaderDiv3 {
+    display: flex;
+    width: 25vw;
+    justify-content: space-between;
+    button {
+      color: $myWhite;
+      background-image: linear-gradient(#ef9b11, #405558);
+      width: 90px;
+      height: 30px;
+      border-radius: 20px;
+    }
+  }
+}
+.show img{
+    padding-right: 20px;
+}
+.secondHeaderDiv1 img{
+    padding-left: 20px;
+}
+
+.firstSection{
+    // background-image: url(/images/section1BGman.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 1240px;
+    width: 100%;
+    color: #12082D;
+    ;
+    .section2text{
+        position: absolute;
+        z-index: 1;
+        top: 300px;
+        font-size: large;
+        padding-left: 3vw;
+        h2{
+            font-size: 80px;
+            line-height: 80px;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+}
