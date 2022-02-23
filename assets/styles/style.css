@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 14px;
 }
 
@@ -24,7 +24,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1vh;
+  padding: 1vh 7vw;
   color: #fff;
 }
 
@@ -162,29 +162,69 @@ body {
   padding-left: 20px;
 }
 
+h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 540px) {
+  h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 60px;
+  }
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 1.3rem;
+  }
+}
+
 .firstSection {
+  background-image: url(/images/section1BGman.svg);
   background-size: cover;
-  background-attachment: fixed;
+  background-position: 50% 0%;
   background-repeat: no-repeat;
-  height: 1240px;
+  min-height: 340px;
+  height: 70vh;
   width: 100%;
-  color: #12082D;
+  padding: 0 7vw;
+  color: #12082d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.firstSection .section2text {
-  position: absolute;
-  z-index: 1;
-  top: 300px;
-  font-size: large;
-  padding-left: 3vw;
+.firstSection * {
+  max-width: 50%;
 }
 
-.firstSection .section2text h2 {
-  font-size: 80px;
-  line-height: 80px;
-}
-
-.firstSection .section2text p {
-  font-size: 30px;
+@media screen and (min-width: 768px) {
+  .firstSection * {
+    max-width: 65%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
