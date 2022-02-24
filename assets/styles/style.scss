@@ -257,6 +257,7 @@ body {
       img {
         width: 80%;
         padding-top: 10px;
+        padding-bottom: 10px;
       }
     }
     h2 {
@@ -266,8 +267,7 @@ body {
     p {
       padding-left: 10vw;
       font-size: 3vw;
-      padding-bottom: 20px;
-      // word-spacing: 15px;
+      padding-bottom: 30px;
     }
   }}
   @media screen and (min-width: $mobile) {
@@ -298,6 +298,7 @@ body {
             height: 250px;
             padding-top: 1px;
             object-fit: cover;
+            padding-bottom: 20px;
           }
         }
         h2 {
@@ -307,7 +308,7 @@ body {
         p {
           padding-left: 3vw;
           font-size: 1.8vw;
-          padding-bottom: 0px;
+          padding-bottom: 10px;
           width: 100%;
         }
       }

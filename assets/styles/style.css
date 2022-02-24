@@ -272,6 +272,7 @@ body {
 .secondSection .majorBorder .big_border div img {
   width: 80%;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .secondSection .majorBorder .big_border h2 {
@@ -282,7 +283,7 @@ body {
 .secondSection .majorBorder .big_border p {
   padding-left: 10vw;
   font-size: 3vw;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 @media screen and (min-width: 770px) {
@@ -327,6 +328,7 @@ body {
     padding-top: 1px;
     -o-object-fit: cover;
        object-fit: cover;
+    padding-bottom: 20px;
   }
   .secondSection .majorBorder .big_border h2, .secondSection .majorBorder .big_border2 h2 {
     font-size: 1.8vw;
@@ -335,7 +337,7 @@ body {
   .secondSection .majorBorder .big_border p, .secondSection .majorBorder .big_border2 p {
     padding-left: 3vw;
     font-size: 1.8vw;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     width: 100%;
   }
 }
