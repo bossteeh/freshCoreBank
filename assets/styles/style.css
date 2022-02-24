@@ -234,7 +234,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 80vw;
   padding: 0 25px;
 }
 
@@ -249,6 +248,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 20px;
 }
 
 .secondSection .majorBorder .big_border {
@@ -381,5 +381,11 @@ body {
   .big_border3 {
     display: none;
   }
+}
+
+.thirdSection {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#EF9B1180), to(#40555880));
+  background-image: linear-gradient(#EF9B1180, #40555880);
+  height: 500px;
 }
 /*# sourceMappingURL=style.css.map */

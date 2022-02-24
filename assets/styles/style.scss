@@ -234,7 +234,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 80vw;
+  // min-height: 80vw;
   padding: 0 25px;
   h1{
     font-size: 26px;
@@ -242,6 +242,7 @@ body {
   .line{
     justify-content: center;
     display: flex;
+    padding-bottom: 20px;
   }
   .majorBorder{
 
@@ -251,6 +252,7 @@ body {
     border-radius: 15px;
     box-shadow: 1px 3px 3px #888888;
     background-color: white;
+    // border: 3px solid green;
     div {
       padding-top: 10px;
       align-items: center;
@@ -261,6 +263,7 @@ body {
         width: 80%;
         padding-top: 10px;
         padding-bottom: 10px;
+        // border: 3px solid blue;
       }
     }
     h2 {
@@ -304,6 +307,8 @@ body {
             padding-top: 1px;
             object-fit: cover;
             padding-bottom: 20px;
+
+
           }
         }
         h2 {
@@ -348,5 +353,12 @@ body {
     .big_border3 {
       display: none;
     }
-  
+   
+  }
+
+.thirdSection{
+  background-image: linear-gradient(#EF9B1180, #40555880);
+  // background-size: contain;
+  height: 500px;
 }
+
