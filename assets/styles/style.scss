@@ -154,7 +154,7 @@ body {
     font-weight: 500;
     padding: 0 25px;
   }
-  @media screen and (min-width:$mobile) {
+  @media screen and (min-width: $mobile) {
     h1 {
       // width: 230vw;
       // padding-left: 6vw;
@@ -171,7 +171,7 @@ body {
       // padding: 0 25px;
     }
   }
-  @media screen and (max-width:$mobile) {
+  @media screen and (max-width: $mobile) {
     h1 {
       // width: 230vw;
       padding-top: 10vh;
@@ -186,7 +186,7 @@ body {
       // padding: 0 25px;
     }
   }
-  @media screen and (max-width:486px) {
+  @media screen and (max-width: 486px) {
     h1 {
       // width: 230vw;
       padding-top: 8vh;
@@ -201,7 +201,7 @@ body {
       // padding: 0 25px;
     }
   }
-  @media screen and (max-width:300px) {
+  @media screen and (max-width: 300px) {
     h1 {
       width: 70%;
       padding-top: 8vh;
@@ -211,10 +211,9 @@ body {
     p {
       width: 70%;
       font-size: 8px;
-      
     }
   }
-  @media screen and (min-width:520px) {
+  @media screen and (min-width: 520px) {
     h1 {
       // width: 230vw;
       padding-top: 8vh;
@@ -230,7 +229,7 @@ body {
     }
   }
 }
-.secondSection{
+.secondSection {
   background-image: url(/images/SECTION2BG.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -238,12 +237,52 @@ body {
   min-height: 80vw;
   padding: 0 25px;
 
-  .services{
+  .big_border {
+    // width: 45vw;
+    // border: 2px solid red;
+    // width: 200px;
+    // height: 300px;
+    width: 100%;
+    padding-top: 2%;
+    border-radius: 15px;
+    box-shadow: 1px 3px 3px #888888;
+    background-color: white;
+    div {
+      padding-top: 10px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      // border: 2px solid red;
+      img {
+        width: 80%;
+        padding-top: 10px;
+      }
+    }
+    h2 {
+      font-size: 5vw;
+      padding-left: 10vw;
+    }
+    p {
+      padding-left: 10vw;
+      font-size: 3vw;
+      padding-bottom: 20px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  .services {
     display: flex;
     padding-top: 2%;
     // border: 2px solid red;
     justify-content: space-evenly;
-    >div{
+    > div {
       // display: flex;
       // flex-direction: column;
       padding-left: 15px;
@@ -251,16 +290,15 @@ body {
       align-content: center;
       // border: 2px solid blue;
       box-shadow: 1px 3px 3px #888888;
-      width:120px;
+      width: 120px;
       height: 120px;
       justify-content: center;
-    
+      border-radius: 5px;
     }
   }
-  @media screen and (max-width:$mobile){
-    .services{
+  @media screen and (max-width: $mobile) {
+    .services {
       display: none;
     }
-    
   }
 }
