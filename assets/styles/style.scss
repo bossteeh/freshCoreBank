@@ -236,6 +236,9 @@ body {
   width: 100%;
   min-height: 80vw;
   padding: 0 25px;
+  h1{
+    font-size: 26px;
+  }
   .line{
     justify-content: center;
     display: flex;
@@ -271,6 +274,8 @@ body {
     }
   }}
   @media screen and (min-width: $mobile) {
+    h1{
+      font-size: 39px;}
     .majorBorder {
       display: flex;
       // border: 2px solid red;
@@ -286,7 +291,7 @@ body {
         border-radius: 15px;
         box-shadow: 1px 3px 3px #888888;
         background-color: $myWhite;
-        border:  2px solid red;
+        // border:  2px solid red;
         div {
           padding-top: 5px;
           align-items: center;
