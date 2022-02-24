@@ -135,7 +135,17 @@ body {
   background-image: url(/images/section1BGman.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-height: 40vw;
+  display: flex;
 }
 
 .firstSection h1 {
@@ -148,6 +158,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .firstSection p {
@@ -197,7 +210,7 @@ body {
     width: 70%;
     padding-top: 8vh;
     font-size: 15px;
-    line-height: 30px;
+    line-height: 15px;
   }
   .firstSection p {
     width: 70%;
@@ -235,10 +248,12 @@ body {
 }
 
 .secondSection .services > div {
+  padding-left: 15px;
+  padding-top: 12px;
   -ms-flex-line-pack: center;
       align-content: center;
-  -webkit-box-shadow: 1px 5px #888888;
-          box-shadow: 1px 5px #888888;
+  -webkit-box-shadow: 1px 3px 3px #888888;
+          box-shadow: 1px 3px 3px #888888;
   width: 120px;
   height: 120px;
   -webkit-box-pack: center;
