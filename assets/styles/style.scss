@@ -274,15 +274,19 @@ body {
     .majorBorder {
       display: flex;
       // border: 2px solid red;
-      height: 400px;
+      min-height: 400px;
       justify-content: space-between;
       width: 100%;
       .big_border, .big_border2{
+        padding-bottom: 25px;
         width: 32%;
-        padding-top: 3%;
+        // height: 100%;
+        min-height: fit-content;
+        padding-top: 1%;
         border-radius: 15px;
         box-shadow: 1px 3px 3px #888888;
         background-color: $myWhite;
+        border:  2px solid red;
         div {
           padding-top: 5px;
           align-items: center;
@@ -293,6 +297,7 @@ body {
             width: 90%;
             height: 250px;
             padding-top: 1px;
+            object-fit: cover;
           }
         }
         h2 {

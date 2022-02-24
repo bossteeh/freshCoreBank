@@ -290,19 +290,24 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 400px;
+    min-height: 400px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 100%;
   }
   .secondSection .majorBorder .big_border, .secondSection .majorBorder .big_border2 {
+    padding-bottom: 25px;
     width: 32%;
-    padding-top: 3%;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    padding-top: 1%;
     border-radius: 15px;
     -webkit-box-shadow: 1px 3px 3px #888888;
             box-shadow: 1px 3px 3px #888888;
     background-color: #fff;
+    border: 2px solid red;
   }
   .secondSection .majorBorder .big_border div, .secondSection .majorBorder .big_border2 div {
     padding-top: 5px;
@@ -320,6 +325,8 @@ body {
     width: 90%;
     height: 250px;
     padding-top: 1px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .secondSection .majorBorder .big_border h2, .secondSection .majorBorder .big_border2 h2 {
     font-size: 1.8vw;
