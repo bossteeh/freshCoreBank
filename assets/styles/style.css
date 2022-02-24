@@ -238,7 +238,16 @@ body {
   padding: 0 25px;
 }
 
-.secondSection .big_border {
+.secondSection .line {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.secondSection .majorBorder .big_border {
   width: 100%;
   padding-top: 2%;
   border-radius: 15px;
@@ -247,7 +256,7 @@ body {
   background-color: white;
 }
 
-.secondSection .big_border div {
+.secondSection .majorBorder .big_border div {
   padding-top: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -260,23 +269,71 @@ body {
   display: flex;
 }
 
-.secondSection .big_border div img {
+.secondSection .majorBorder .big_border div img {
   width: 80%;
   padding-top: 10px;
 }
 
-.secondSection .big_border h2 {
+.secondSection .majorBorder .big_border h2 {
   font-size: 5vw;
   padding-left: 10vw;
 }
 
-.secondSection .big_border p {
+.secondSection .majorBorder .big_border p {
   padding-left: 10vw;
   font-size: 3vw;
   padding-bottom: 20px;
 }
 
-.secondSection .services {
+@media screen and (min-width: 770px) {
+  .secondSection .majorBorder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 400px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  .secondSection .majorBorder .big_border, .secondSection .majorBorder .big_border2 {
+    width: 32%;
+    padding-top: 3%;
+    border-radius: 15px;
+    -webkit-box-shadow: 1px 3px 3px #888888;
+            box-shadow: 1px 3px 3px #888888;
+    background-color: #fff;
+  }
+  .secondSection .majorBorder .big_border div, .secondSection .majorBorder .big_border2 div {
+    padding-top: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .secondSection .majorBorder .big_border div img, .secondSection .majorBorder .big_border2 div img {
+    width: 90%;
+    height: 250px;
+    padding-top: 1px;
+  }
+  .secondSection .majorBorder .big_border h2, .secondSection .majorBorder .big_border2 h2 {
+    font-size: 1.8vw;
+    padding-left: 3vw;
+  }
+  .secondSection .majorBorder .big_border p, .secondSection .majorBorder .big_border2 p {
+    padding-left: 3vw;
+    font-size: 1.8vw;
+    padding-bottom: 0px;
+    width: 100%;
+  }
+}
+
+.services {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -286,7 +343,7 @@ body {
           justify-content: space-evenly;
 }
 
-.secondSection .services > div {
+.services > div {
   padding-left: 15px;
   padding-top: 12px;
   -ms-flex-line-pack: center;
@@ -302,7 +359,11 @@ body {
 }
 
 @media screen and (max-width: 770px) {
-  .secondSection .services {
+  .services {
+    display: none;
+  }
+  .big_border2,
+  .big_border3 {
     display: none;
   }
 }

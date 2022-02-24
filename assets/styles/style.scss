@@ -236,12 +236,13 @@ body {
   width: 100%;
   min-height: 80vw;
   padding: 0 25px;
+  .line{
+    justify-content: center;
+    display: flex;
+  }
+  .majorBorder{
 
   .big_border {
-    // width: 45vw;
-    // border: 2px solid red;
-    // width: 200px;
-    // height: 300px;
     width: 100%;
     padding-top: 2%;
     border-radius: 15px;
@@ -266,16 +267,48 @@ body {
       padding-left: 10vw;
       font-size: 3vw;
       padding-bottom: 20px;
+      // word-spacing: 15px;
+    }
+  }}
+  @media screen and (min-width: $mobile) {
+    .majorBorder {
+      display: flex;
+      // border: 2px solid red;
+      height: 400px;
+      justify-content: space-between;
+      width: 100%;
+      .big_border, .big_border2{
+        width: 32%;
+        padding-top: 3%;
+        border-radius: 15px;
+        box-shadow: 1px 3px 3px #888888;
+        background-color: $myWhite;
+        div {
+          padding-top: 5px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          // border: 2px solid red;
+          img {
+            width: 90%;
+            height: 250px;
+            padding-top: 1px;
+          }
+        }
+        h2 {
+          font-size: 1.8vw;
+          padding-left: 3vw;
+        }
+        p {
+          padding-left: 3vw;
+          font-size: 1.8vw;
+          padding-bottom: 0px;
+          width: 100%;
+        }
+      }
+    }
     }
   }
-
-
-
-
-
-
-
-
 
   .services {
     display: flex;
@@ -300,5 +333,9 @@ body {
     .services {
       display: none;
     }
-  }
+    .big_border2,
+    .big_border3 {
+      display: none;
+    }
+  
 }
