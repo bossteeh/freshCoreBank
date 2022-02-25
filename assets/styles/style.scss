@@ -385,6 +385,8 @@ body {
   background-image: linear-gradient(#EF9B11, #405558);
   width: 200px;
   height: 60px;
+  border-radius: 14px;
+  box-shadow: 0px 5px 5px #00000040;
   color: $myWhite;
 }
 .ebankingbtn button{
@@ -393,4 +395,6 @@ body {
   height: 60px;
   color: $myWhite;
   border: 2px solid white;
+  border-radius: 14px;
+  box-shadow: 0px 5px 5px #00000040;
 }
