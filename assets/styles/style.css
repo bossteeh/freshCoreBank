@@ -395,14 +395,21 @@ body {
   padding: 25px 25px;
 }
 
-.thirdSection :nth-child(1) img {
+.thirdSection .girlwithphone img {
   width: 75vw;
   -ms-flex-line-pack: center;
       align-content: center;
 }
 
-.thirdSection div:nth-child(3) {
+.thirdSection .whatwedo {
   display: none;
+}
+
+.thirdSection .finfreed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6px;
 }
 
 .thirdSection h1 {
@@ -412,34 +419,103 @@ body {
 
 .thirdSection h3 {
   color: #fff;
-  font-size: 30px;
+  font-size: 1.6rem;
 }
 
 .thirdSection p {
   color: #fff;
   line-height: 30px;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
-.createAcctbtn button {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#EF9B11), to(#405558));
-  background-image: linear-gradient(#EF9B11, #405558);
+.thirdSection .createAcctbtn button {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ef9b11), to(#405558));
+  background-image: linear-gradient(#ef9b11, #405558);
   width: 200px;
   height: 60px;
-  border-radius: 14px;
+  border-radius: 10px;
   -webkit-box-shadow: 0px 5px 5px #00000040;
           box-shadow: 0px 5px 5px #00000040;
   color: #fff;
 }
 
-.ebankingbtn button {
+.thirdSection .ebankingbtn button {
   background-color: transparent;
   width: 200px;
   height: 60px;
   color: #fff;
   border: 2px solid white;
-  border-radius: 14px;
+  border-radius: 10px;
   -webkit-box-shadow: 0px 5px 5px #00000040;
           box-shadow: 0px 5px 5px #00000040;
+}
+
+@media screen and (min-width: 770px) {
+  .thirdSection {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ef9b1180), to(#40555880));
+    background-image: linear-gradient(#ef9b1180, #40555880);
+    min-height: 500px;
+    padding: 25px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .thirdSection .girlwithphone {
+    width: 50%;
+  }
+  .thirdSection .girlwithphone img {
+    width: 50vw;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .thirdSection .whatwedo {
+    display: none;
+  }
+  .thirdSection .finfreed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 6px;
+  }
+  .thirdSection h1 {
+    padding: 5px 5px;
+    font-size: 26px;
+  }
+  .thirdSection h3 {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+  .thirdSection p {
+    color: #fff;
+    line-height: 30px;
+    font-size: 1rem;
+  }
+  .thirdSection .createAcctbtn button {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ef9b11), to(#405558));
+    background-image: linear-gradient(#ef9b11, #405558);
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 5px #00000040;
+            box-shadow: 0px 5px 5px #00000040;
+    color: #fff;
+  }
+  .thirdSection .ebankingbtn button {
+    background-color: transparent;
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 5px #00000040;
+            box-shadow: 0px 5px 5px #00000040;
+  }
 }
 /*# sourceMappingURL=style.css.map */
