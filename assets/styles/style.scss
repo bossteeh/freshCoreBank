@@ -236,56 +236,58 @@ body {
   width: 100%;
   // min-height: 80vw;
   padding: 0 25px;
-  h1{
+  h1 {
     font-size: 26px;
   }
-  .line{
+  .line {
     justify-content: center;
     display: flex;
     padding-bottom: 20px;
   }
-  .majorBorder{
-
-  .big_border {
-    width: 100%;
-    padding-top: 2%;
-    border-radius: 15px;
-    box-shadow: 1px 3px 3px #888888;
-    background-color: white;
-    // border: 3px solid green;
-    div {
-      padding-top: 10px;
-      align-items: center;
-      justify-content: center;
-      display: flex;
-      // border: 2px solid red;
-      img {
-        width: 80%;
+  .majorBorder {
+    .big_border {
+      width: 100%;
+      padding-top: 2%;
+      border-radius: 15px;
+      box-shadow: 1px 3px 3px #888888;
+      background-color: white;
+      // border: 3px solid green;
+      div {
         padding-top: 10px;
-        padding-bottom: 10px;
-        // border: 3px solid blue;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        // border: 2px solid red;
+        img {
+          width: 80%;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          // border: 3px solid blue;
+        }
+      }
+      h2 {
+        font-size: 5vw;
+        padding-left: 8vw;
+      }
+      p {
+        padding-left: 8vw;
+        font-size: 3vw;
+        padding-bottom: 30px;
       }
     }
-    h2 {
-      font-size: 5vw;
-      padding-left: 8vw;
-    }
-    p {
-      padding-left: 8vw;
-      font-size: 3vw;
-      padding-bottom: 30px;
-    }
-  }}
+  }
   @media screen and (min-width: $mobile) {
-    h1{
-      font-size: 39px;}
+    h1 {
+      font-size: 39px;
+    }
     .majorBorder {
       display: flex;
       // border: 2px solid red;
       min-height: 400px;
       justify-content: space-between;
       width: 100%;
-      .big_border, .big_border2{
+      .big_border,
+      .big_border2 {
         padding-bottom: 25px;
         width: 32%;
         // height: 100%;
@@ -307,8 +309,6 @@ body {
             padding-top: 1px;
             object-fit: cover;
             padding-bottom: 20px;
-
-
           }
         }
         h2 {
@@ -323,43 +323,74 @@ body {
         }
       }
     }
-    }
   }
-
-  .services {
-    display: flex;
-    padding-top: 2%;
-    // border: 2px solid red;
-    justify-content: space-evenly;
-    > div {
-      // display: flex;
-      // flex-direction: column;
-      padding-left: 15px;
-      padding-top: 12px;
-      align-content: center;
-      // border: 2px solid blue;
-      box-shadow: 1px 3px 3px #888888;
-      width: 120px;
-      height: 120px;
-      justify-content: center;
-      border-radius: 5px;
-    }
-  }
-  @media screen and (max-width: $mobile) {
-    .services {
-      display: none;
-    }
-    .big_border2,
-    .big_border3 {
-      display: none;
-    }
-   
-  }
-
-.thirdSection{
-  background-image: linear-gradient(#EF9B1180, #40555880);
-  // background-size: contain;
-  height: 500px;
-  padding: 0 25px;
 }
 
+.services {
+  display: flex;
+  padding-top: 2%;
+  // border: 2px solid red;
+  justify-content: space-evenly;
+  > div {
+    // display: flex;
+    // flex-direction: column;
+    padding-left: 15px;
+    padding-top: 12px;
+    align-content: center;
+    // border: 2px solid blue;
+    box-shadow: 1px 3px 3px #888888;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: $mobile) {
+  .services {
+    display: none;
+  }
+  .big_border2,
+  .big_border3 {
+    display: none;
+  }
+}
+
+.thirdSection {
+  background-image: linear-gradient(#ef9b1180, #40555880);
+  min-height: 500px;
+  padding: 25px 25px;
+  :nth-child(1) img {
+    width: 75vw;
+    align-content: center;
+  }
+  div:nth-child(3) {
+    display: none;
+    // border: 2px solid red
+  }
+  h1 {
+    padding: 5px 5px;
+    font-size: 26px;
+  }
+  h3{
+    color: $myWhite;
+    font-size: 30px;
+  }
+  p{
+    color: $myWhite;
+    line-height: 30px;
+    font-size: 15px;
+  }
+}
+.createAcctbtn button{
+  background-image: linear-gradient(#EF9B11, #405558);
+  width: 200px;
+  height: 60px;
+  color: $myWhite;
+}
+.ebankingbtn button{
+  background-color: transparent;
+  width: 200px;
+  height: 60px;
+  color: $myWhite;
+  border: 2px solid white;
+}
