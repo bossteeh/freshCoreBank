@@ -109,11 +109,6 @@ body {
       button:hover {
         zoom: 110%;
         color: white;
-        // height: 25px;
-        background-color: red;
-        // width: 80px;
-        // border-radius: 20px;
-        // color: $myWhite;
         cursor: pointer;
         
       }
@@ -359,6 +354,14 @@ body {
     border-radius: 5px;
   }
 }
+.services:hover {
+  @extend .services;
+    >div{
+      box-shadow: 1px 3px 9px #888888;
+    }
+
+  }
+
 @media screen and (max-width: $mobile) {
   .services {
     display: none;
