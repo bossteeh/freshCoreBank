@@ -104,7 +104,20 @@ body {
         width: 80px;
         border-radius: 20px;
         color: $myWhite;
+        
       }
+      button:hover {
+        zoom: 110%;
+        color: white;
+        // height: 25px;
+        background-color: red;
+        // width: 80px;
+        // border-radius: 20px;
+        // color: $myWhite;
+        cursor: pointer;
+        
+      }
+      
     }
   }
 }
@@ -235,7 +248,8 @@ body {
   background-size: cover;
   width: 100%;
   // min-height: 80vw;
-  padding: 0 25px;
+  padding: 0 30px;
+  // padding-left: 50px;
   h1 {
     font-size: 26px;
   }
@@ -386,7 +400,7 @@ body {
   }
   .createAcctbtn button {
     background-image: linear-gradient(#ef9b11, #405558);
-    width: 200px;
+    width: 180px;
     height: 60px;
     border-radius: 10px;
     box-shadow: 0px 5px 5px #00000040;
@@ -394,7 +408,7 @@ body {
   }
   .ebankingbtn button {
     background-color: transparent;
-    width: 200px;
+    width: 180px;
     height: 60px;
     color: $myWhite;
     border: 2px solid white;
@@ -454,4 +468,11 @@ body {
       gap: 4px
     }
   }
+}
+.fourthSection{
+  background-image: url(/images/section4bg.svg);
+  min-height: 500px ;
+  background-size: cover;
+  background-color: white;
+  background-repeat: no-repeat;
 }
