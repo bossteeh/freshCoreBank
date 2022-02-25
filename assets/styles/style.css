@@ -312,7 +312,8 @@ body {
   .secondSection .majorBorder .big_border,
   .secondSection .majorBorder .big_border2 {
     padding-bottom: 25px;
-    width: 32%;
+    width: 70vw;
+    width: 31%;
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
@@ -321,10 +322,12 @@ body {
     -webkit-box-shadow: 1px 3px 3px #888888;
             box-shadow: 1px 3px 3px #888888;
     background-color: #fff;
+    gap: 20px;
   }
   .secondSection .majorBorder .big_border div,
   .secondSection .majorBorder .big_border2 div {
     padding-top: 5px;
+    padding-bottom: 5px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -358,7 +361,7 @@ body {
   }
 }
 
-.services, .services:hover {
+.services, .services .services:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -368,7 +371,7 @@ body {
           justify-content: space-evenly;
 }
 
-.services > div, .services:hover > div {
+.services > div, .services .services:hover > div {
   padding-left: 15px;
   padding-top: 12px;
   -ms-flex-line-pack: center;
@@ -383,13 +386,13 @@ body {
   border-radius: 5px;
 }
 
-.services:hover > div {
+.services .services:hover .services:hover > div, .services .services:hover > div {
   -webkit-box-shadow: 1px 3px 9px #888888;
           box-shadow: 1px 3px 9px #888888;
 }
 
 @media screen and (max-width: 770px) {
-  .services, .services:hover {
+  .services, .services .services:hover {
     display: none;
   }
   .big_border2,
