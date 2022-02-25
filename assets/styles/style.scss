@@ -406,55 +406,52 @@ body {
   .thirdSection {
     background-image: linear-gradient(#ef9b1180, #40555880);
     min-height: 500px;
-    padding: 25px 25px;
+    padding: 0px, 30px;
+    justify-content:center;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    width: 100%;
     .girlwithphone{
+      width: 50%;
+    }
+    .thirdSectiontext{
+      padding-left: 30px;
       width: 50%;
     }
     .girlwithphone img {
       width:50vw;
       align-content: center;
+      padding-right: 50px;
       
-    }
-    .whatwedo {
-      display: none;
-      // border: 2px solid red
     }
     .finfreed {
       display: flex;
       gap: 6px;
+      font-size: 17px;
+      img{
+        width: 20px;
+      }
     }
     h1 {
       padding: 5px 5px;
       font-size: 26px;
     }
     h3 {
-      color: $myWhite;
-      font-size: 1.6rem;
+      color: black;
+      font-size: 35px;
+      word-spacing: 16px;
     }
     p {
+      padding-top: 15px;
       color: $myWhite;
       line-height: 30px;
       font-size: 1rem;
+      color: black;
     }
-    .createAcctbtn button {
-      background-image: linear-gradient(#ef9b11, #405558);
-      width: 200px;
-      height: 60px;
-      border-radius: 10px;
-      box-shadow: 0px 5px 5px #00000040;
-      color: $myWhite;
-    }
-    .ebankingbtn button {
-      background-color: transparent;
-      width: 200px;
-      height: 60px;
-      color: $myWhite;
-      border: 2px solid white;
-      border-radius: 10px;
-      box-shadow: 0px 5px 5px #00000040;
+    .buttons{
+      display: flex;
+      gap: 4px
     }
   }
 }
