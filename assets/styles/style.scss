@@ -406,7 +406,7 @@ body {
   }
   .createAcctbtn button {
     background-image: linear-gradient(#ef9b11, #405558);
-    width: 180px;
+    width: 200px;
     height: 60px;
     border-radius: 10px;
     box-shadow: 0px 5px 5px #00000040;
@@ -414,7 +414,7 @@ body {
   }
   .ebankingbtn button {
     background-color: transparent;
-    width: 180px;
+    width: 200px;
     height: 60px;
     color: $myWhite;
     border: 2px solid white;
@@ -471,7 +471,11 @@ body {
     }
     .buttons{
       display: flex;
-      gap: 4px
+      gap: 4px;
+      button{
+        width: 180px;
+      }
+      
     }
   }
 }
