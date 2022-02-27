@@ -690,15 +690,15 @@ body {
   background-color: #12082d;
   min-height: 500px;
   text-decoration: none;
-  .mytag{
+  .mytag {
     justify-content: center;
     display: flex;
     padding-bottom: 20px;
   }
-  .storepc{
+  .storepc {
     display: none;
   }
-  .contacts_{
+  .contacts_ {
     display: none;
   }
   .contacts {
@@ -735,46 +735,45 @@ body {
     color: #ef9b11;
   }
 }
-@media screen and (min-width:$mobile) {
+@media screen and (min-width: $mobile) {
   .footer {
     padding: 0px 30px;
     padding-top: 50px;
     background-color: #12082d;
     min-height: 500px;
     text-decoration: none;
-    .secondfooterdic{
+    .secondfooterdic {
       justify-content: space-between;
       display: flex;
       gap: 15px;
       padding-left: 10px;
     }
-    .footers{
-      border: 2px solid green;
+    .footers {
+      // border: 2px solid green;
       display: flex;
       justify-content: space-evenly;
       // width: 700px;
       // align-items: center;
 
-      
-      .footertext{
-width: 80%;
+      .footertext {
+        width: 75%;
       }
     }
-    .mytag{
+    .mytag {
       justify-content: center;
       display: flex;
       padding-bottom: 20px;
     }
-    .store{
+    .store {
       display: none;
     }
-    .storepc{
+    .storepc {
       display: block;
-      img{
-        padding-top: 5px; 
+      img {
+        padding-top: 5px;
       }
     }
-    .contacts_{
+    .contacts_ {
       display: block;
     }
     .contacts {
@@ -797,7 +796,7 @@ width: 80%;
     .linkncompany {
       display: flex;
       justify-content: space-between;
-      border: 2px solid red;
+      // border: 2px solid red;
       gap: 20px;
       min-width: 450px;
       h3 {
@@ -810,6 +809,9 @@ width: 80%;
     h3 {
       color: #ef9b11;
     }
+    .copyright{
+    justify-content: center;
+    display: flex;
+    }
   }
-  
 }

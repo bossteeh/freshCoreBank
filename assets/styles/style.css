@@ -877,7 +877,6 @@ body {
     padding-left: 10px;
   }
   .footer .footers {
-    border: 2px solid green;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -886,7 +885,7 @@ body {
             justify-content: space-evenly;
   }
   .footer .footers .footertext {
-    width: 80%;
+    width: 75%;
   }
   .footer .mytag {
     -webkit-box-pack: center;
@@ -940,7 +939,6 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    border: 2px solid red;
     gap: 20px;
     min-width: 450px;
   }
@@ -952,6 +950,14 @@ body {
   }
   .footer h3 {
     color: #ef9b11;
+  }
+  .footer .copyright {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 /*# sourceMappingURL=style.css.map */
