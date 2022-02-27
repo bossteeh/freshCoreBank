@@ -557,12 +557,13 @@ body {
   display: none;
 }
 
+.fourthSection .corebankmobile {
+  border: 2px solid red;
+  margin-bottom: -7px;
+}
+
 .fourthSection .corebankmobile img {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
   width: 50vw;
-  padding: 0px 10px;
 }
 
 .fourthSection .fourthSectionDiv2 {
