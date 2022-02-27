@@ -698,7 +698,73 @@ body {
   color: #c0ccda;
 }
 
-@media screen and (min-width: 400px) {
+.fifthSection .clientcomment__ {
+  display: none;
+}
+
+@media screen and (min-width: 770px) {
+  .fifthSection {
+    padding: 0px 25px;
+    padding-top: 50px;
+    background-color: #ffbb0b80;
+    min-height: 500px;
+  }
+  .fifthSection .line {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 0px;
+  }
+  .fifthSection .comments {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  .fifthSection .comments .clientcomment__ {
+    border: 1px solid white;
+    width: 30%;
+    height: 180px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    display: block;
+  }
+  .fifthSection .comments .clientcomment__ p {
+    font-size: 13px;
+  }
+  .fifthSection .comments .clientcomment__ .stars {
+    color: #ffbb0b;
+  }
+  .fifthSection .comments .clientcomment__ .stars span {
+    color: #c0ccda;
+  }
+  .fifthSection .clientcomment {
+    border: 1px solid white;
+    width: 30%;
+    height: 180px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  .fifthSection .clientcomment p {
+    font-size: 13px;
+  }
+  .fifthSection .clientcomment .stars {
+    color: #ffbb0b;
+  }
+  .fifthSection .clientcomment .stars span {
+    color: #c0ccda;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 770px) {
   .fifthSection .clientcomment p {
     font-size: 18px;
   }
