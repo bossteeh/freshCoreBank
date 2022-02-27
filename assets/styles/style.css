@@ -626,7 +626,6 @@ body {
     padding: 0px 50px;
   }
   .fourthSection .fourthSectionDiv2 {
-    width: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -637,7 +636,6 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border: 2px solid red;
   }
   .fourthSection .fourthSectionDiv2 .googlenapple {
     padding-top: 20px;
@@ -656,5 +654,12 @@ body {
     font-size: 3.5vw;
     font-weight: bold;
   }
+}
+
+.fifthSection {
+  padding: 0px 25px;
+  padding-top: 50px;
+  background-color: #FFBB0B80;
+  min-height: 500px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -534,17 +534,18 @@ body {
     .corebankpc {
       display: flex;
       img {
+        // border: 2px solid blue;
         justify-content: end;
         width: 400px;
         padding: 0px 50px;
       }
     }
     .fourthSectionDiv2 {
-      width: 70%;
+      // width: 70%;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      border: 2px solid red;
+      // border: 2px solid red;
       .googlenapple{
         padding-top: 20px;
         display: flex;
@@ -562,4 +563,10 @@ body {
       }
     }
   }
+}
+.fifthSection{
+  padding: 0px 25px;
+  padding-top: 50px;
+  background-color: #FFBB0B80;
+  min-height: 500px;
 }
