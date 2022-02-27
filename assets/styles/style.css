@@ -790,6 +790,10 @@ body {
   text-decoration: none;
 }
 
+.footer .contacts p {
+  text-decoration: none;
+}
+
 .footer .sociallogos {
   display: -webkit-box;
   display: -ms-flexbox;

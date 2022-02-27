@@ -692,6 +692,10 @@ body {
   background-color: #12082D;
   min-height: 500px;
   text-decoration: none;
+  .contacts{
+    p{
+      text-decoration: none;    }
+  }
   .sociallogos{
     display: flex;
     img{
