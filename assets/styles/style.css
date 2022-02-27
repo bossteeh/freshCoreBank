@@ -709,6 +709,10 @@ body {
   color: #c0ccda;
 }
 
+.fifthSection .clientcomment .stars spans {
+  color: #636366;
+}
+
 .fifthSection .clientcomment__ {
   display: none;
 }
@@ -759,6 +763,9 @@ body {
   }
   .fifthSection .comments .clientcomment__ .stars span {
     color: #c0ccda;
+  }
+  .fifthSection .comments .clientcomment__ .stars spans {
+    color: #636366;
   }
   .fifthSection .clientcomment {
     border: 1px solid white;
