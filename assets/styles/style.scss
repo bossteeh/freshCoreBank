@@ -11,7 +11,7 @@
 }
 body {
   font-family: $myFont;
-  font-size: 13px;
+  font-size: 12px;
 }
 .firstHeader {
   background-color: $myGrey;
@@ -698,6 +698,9 @@ body {
   .storepc{
     display: none;
   }
+  .contacts_{
+    display: none;
+  }
   .contacts {
     p {
       text-decoration: none;
@@ -739,7 +742,24 @@ body {
     background-color: #12082d;
     min-height: 500px;
     text-decoration: none;
-    display: flex;
+    .secondfooterdic{
+      justify-content: space-between;
+      display: flex;
+      gap: 15px;
+      padding-left: 10px;
+    }
+    .footers{
+      border: 2px solid green;
+      display: flex;
+      justify-content: space-evenly;
+      // width: 700px;
+      // align-items: center;
+
+      
+      .footertext{
+width: 80%;
+      }
+    }
     .mytag{
       justify-content: center;
       display: flex;
@@ -754,11 +774,11 @@ body {
         padding-top: 5px; 
       }
     }
+    .contacts_{
+      display: block;
+    }
     .contacts {
-      p {
-        text-decoration: none;
-        color: white;
-      }
+      display: none;
     }
     .sociallogos {
       display: flex;
@@ -777,6 +797,9 @@ body {
     .linkncompany {
       display: flex;
       justify-content: space-between;
+      border: 2px solid red;
+      gap: 20px;
+      min-width: 450px;
       h3 {
         padding: 10px 0px;
       }

@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins";
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .firstHeader {
@@ -804,6 +804,10 @@ body {
   display: none;
 }
 
+.footer .contacts_ {
+  display: none;
+}
+
 .footer .contacts p {
   text-decoration: none;
   color: white;
@@ -861,9 +865,28 @@ body {
     background-color: #12082d;
     min-height: 500px;
     text-decoration: none;
+  }
+  .footer .secondfooterdic {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    gap: 15px;
+    padding-left: 10px;
+  }
+  .footer .footers {
+    border: 2px solid green;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .footer .footers .footertext {
+    width: 80%;
   }
   .footer .mytag {
     -webkit-box-pack: center;
@@ -883,9 +906,11 @@ body {
   .footer .storepc img {
     padding-top: 5px;
   }
-  .footer .contacts p {
-    text-decoration: none;
-    color: white;
+  .footer .contacts_ {
+    display: block;
+  }
+  .footer .contacts {
+    display: none;
   }
   .footer .sociallogos {
     display: -webkit-box;
@@ -915,6 +940,9 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    border: 2px solid red;
+    gap: 20px;
+    min-width: 450px;
   }
   .footer .linkncompany h3 {
     padding: 10px 0px;
