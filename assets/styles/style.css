@@ -595,7 +595,7 @@ body {
 @media screen and (min-width: 770px) {
   .fourthSection {
     background-image: url(/images/section4bg.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -610,6 +610,9 @@ body {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .fourthSection .corebankmobile img {
     display: none;

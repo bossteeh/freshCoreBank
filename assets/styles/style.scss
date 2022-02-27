@@ -519,7 +519,7 @@ body {
   .fourthSection {
     background-image: url(/images/section4bg.png);
     // min-height: 500px ;
-    background-size: contain;
+    background-size: cover;
     // background-color: white;
     background-repeat: no-repeat;
     display: flex;
@@ -528,6 +528,7 @@ body {
     padding-top: 50px;
     align-items: center;
     width: 100%;
+    justify-content: center;
     .corebankmobile img {
       display: none;
     }
