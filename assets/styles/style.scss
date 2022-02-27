@@ -570,10 +570,16 @@ body {
   padding-top: 50px;
   background-color: #ffbb0b80;
   min-height: 500px;
+  .boxnclient{
+    padding: 10px;
+  }
   .line {
     justify-content: center;
     display: flex;
     padding: 20px 0px;
+  }
+  .comments{
+    padding-left: 10px;
   }
   
   .clientcomment {
@@ -608,6 +614,10 @@ body {
     padding-top: 50px;
     background-color: #ffbb0b80;
     min-height: 500px;
+    .boxnclient {
+      padding-left: 50px;
+
+    }
     .line {
       justify-content: center;
       display: flex;
@@ -617,6 +627,7 @@ body {
       display: flex;
       justify-content: space-between;
       width: 100%;
+      padding: 50px;
 
       .clientcomment__ {
         border: 1px solid white;

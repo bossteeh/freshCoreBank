@@ -664,6 +664,10 @@ body {
   min-height: 500px;
 }
 
+.fifthSection .boxnclient {
+  padding: 10px;
+}
+
 .fifthSection .line {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -672,6 +676,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding: 20px 0px;
+}
+
+.fifthSection .comments {
+  padding-left: 10px;
 }
 
 .fifthSection .clientcomment {
@@ -709,6 +717,9 @@ body {
     background-color: #ffbb0b80;
     min-height: 500px;
   }
+  .fifthSection .boxnclient {
+    padding-left: 50px;
+  }
   .fifthSection .line {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -726,6 +737,7 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 100%;
+    padding: 50px;
   }
   .fifthSection .comments .clientcomment__ {
     border: 1px solid white;
