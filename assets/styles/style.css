@@ -661,7 +661,7 @@ body {
   padding: 0px 25px;
   padding-top: 50px;
   background-color: #ffbb0b80;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .fifthSection .boxnclient {
@@ -780,5 +780,12 @@ body {
   .fifthSection .clientcomment p {
     font-size: 18px;
   }
+}
+
+.sixthSection {
+  padding: 0px 25px;
+  padding-top: 50px;
+  background-color: #12082D;
+  min-height: 500px;
 }
 /*# sourceMappingURL=style.css.map */
