@@ -685,7 +685,7 @@ body {
 .fifthSection .clientcomment {
   border: 1px solid white;
   width: 100%;
-  height: 180px;
+  height: 200px;
   background-color: white;
   border-radius: 10px;
   -webkit-box-align: center;
@@ -787,5 +787,13 @@ body {
   padding-top: 50px;
   background-color: #12082D;
   min-height: 500px;
+}
+
+.sixthSection p {
+  color: #fff;
+}
+
+.sixthSection h3 {
+  color: #ef9b11;
 }
 /*# sourceMappingURL=style.css.map */
