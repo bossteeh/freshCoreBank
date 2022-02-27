@@ -535,7 +535,7 @@ body {
 }
 
 .fourthSection {
-  background-image: url(/images/section4bg.svg);
+  background-image: url(/images/section4bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -551,6 +551,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+}
+
+.fourthSection .corebankpc {
+  display: none;
 }
 
 .fourthSection .corebankmobile img {
@@ -580,11 +584,77 @@ body {
 }
 
 .fourthSection .fourthSectionDiv2 h3 {
-  color: #EAB221;
+  color: #eab221;
 }
 
 .fourthSection .fourthSectionDiv2 p {
-  font-size: 3.5vw;
-  font-weight: bold;
+  font-size: 3.3vw;
+}
+
+@media screen and (min-width: 770px) {
+  .fourthSection {
+    background-image: url(/images/section4bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0px 25px;
+    padding-top: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .fourthSection .corebankmobile img {
+    display: none;
+  }
+  .fourthSection .corebankpc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .fourthSection .corebankpc img {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    width: 400px;
+    padding: 0px 50px;
+  }
+  .fourthSection .fourthSectionDiv2 {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 2px solid red;
+  }
+  .fourthSection .fourthSectionDiv2 .googlenapple {
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+  }
+  .fourthSection .fourthSectionDiv2 img {
+    width: 20vw;
+  }
+  .fourthSection .fourthSectionDiv2 h3 {
+    color: #EAB221;
+  }
+  .fourthSection .fourthSectionDiv2 p {
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
 }
 /*# sourceMappingURL=style.css.map */
