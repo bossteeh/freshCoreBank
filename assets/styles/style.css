@@ -553,10 +553,6 @@ body {
   width: 100%;
 }
 
-.fourthSection .corebankmobile {
-  border: 2px solid blue;
-}
-
 .fourthSection .corebankmobile img {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -577,7 +573,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 2px solid red;
 }
 
 .fourthSection .fourthSectionDiv2 img {
