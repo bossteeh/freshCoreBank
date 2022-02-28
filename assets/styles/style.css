@@ -78,6 +78,10 @@ body {
           align-items: center;
 }
 
+.secondHeader .corebanklogo {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 770px) {
   .secondHeader .nodisplay {
     -webkit-box-pack: justify;

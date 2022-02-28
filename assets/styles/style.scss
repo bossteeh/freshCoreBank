@@ -50,6 +50,9 @@ body {
   justify-content: space-between;
   padding: 0 25px;
   align-items: center;
+ .corebanklogo{
+  cursor: pointer;
+ }
 
   // @media screen and (min-width:$laptop) {
   //   .nodisplay {
