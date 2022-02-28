@@ -365,7 +365,7 @@ body {
   }
 }
 
-.services, .services .services:hover {
+.services, .services:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,7 +375,7 @@ body {
           justify-content: space-evenly;
 }
 
-.services > div, .services .services:hover > div {
+.services > div, .services:hover > div {
   padding-left: 15px;
   padding-top: 12px;
   -ms-flex-line-pack: center;
@@ -390,13 +390,22 @@ body {
   border-radius: 5px;
 }
 
-.services .services:hover .services:hover > div, .services .services:hover > div {
+.services .loans:hover,
+.services .savings_:hover,
+.services .ebanking_:hover,
+.services .cards_:hover,
+.services .investment__:hover,
+.services .pos_:hover {
   -webkit-box-shadow: 1px 3px 9px #888888;
           box-shadow: 1px 3px 9px #888888;
 }
 
+.services:hover > div {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 770px) {
-  .services, .services .services:hover {
+  .services, .services:hover {
     display: none;
   }
   .big_border2,

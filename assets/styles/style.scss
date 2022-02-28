@@ -50,9 +50,9 @@ body {
   justify-content: space-between;
   padding: 0 25px;
   align-items: center;
- .corebanklogo{
-  cursor: pointer;
- }
+  .corebanklogo {
+    cursor: pointer;
+  }
 
   // @media screen and (min-width:$laptop) {
   //   .nodisplay {
@@ -288,6 +288,7 @@ body {
     h1 {
       font-size: 39px;
     }
+
     .majorBorder {
       display: flex;
       // border: 2px solid red;
@@ -355,11 +356,21 @@ body {
     justify-content: center;
     border-radius: 5px;
   }
-  .services:hover {
-    @extend .services;
-    > div {
-      box-shadow: 1px 3px 9px #888888;
-    }
+  .loans:hover,
+  .savings_:hover,
+  .ebanking_:hover,
+  .cards_:hover,
+  .investment__:hover,
+  .pos_:hover {
+    box-shadow: 1px 3px 9px #888888;
+  }
+}
+.services:hover {
+  @extend .services;
+  > div {
+    // box-shadow: 1px 3px 9px #888888;
+    // border: 2px solid red;
+    cursor: pointer;
   }
 }
 
@@ -604,7 +615,7 @@ body {
       span {
         color: #c0ccda;
       }
-      spans{
+      spans {
         color: #636366;
       }
     }
@@ -654,7 +665,7 @@ body {
           span {
             color: #c0ccda;
           }
-          spans{
+          spans {
             color: #636366;
           }
         }
@@ -819,9 +830,9 @@ body {
     h3 {
       color: #ef9b11;
     }
-    .copyright{
-    justify-content: center;
-    display: flex;
+    .copyright {
+      justify-content: center;
+      display: flex;
     }
   }
 }
