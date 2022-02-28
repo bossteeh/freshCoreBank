@@ -316,7 +316,6 @@ body {
   .secondSection .majorBorder .big_border,
   .secondSection .majorBorder .big_border2 {
     padding-bottom: 25px;
-    border: 2px solid red;
     width: 70vw;
     width: 31%;
     min-height: -webkit-fit-content;
