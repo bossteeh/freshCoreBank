@@ -918,6 +918,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     padding-bottom: 20px;
+    width: 100%;
   }
   .footer .store {
     display: none;
